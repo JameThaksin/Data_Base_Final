@@ -1,0 +1,382 @@
+[
+  {
+    "name": "หน้าเว็บโหลดได้และแสดงหน้าต่างเริ่มสอบ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "หน้าเริ่มแสดง ง่าย 20 / ปานกลาง 20 / ยาก 20",
+    "ok": true,
+    "detail": "20/20/20"
+  },
+  {
+    "name": "หน้าเริ่มมี 3 โหมด Exam / Practice / Wrong Answers Review (Wrong ปิดไว้เพราะยังไม่มีข้อผิด)",
+    "ok": true,
+    "detail": "exam:true:false,practice:false:false,wrong:false:true"
+  },
+  {
+    "name": "เริ่มใน Exam Mode",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Navigator มี 60 ช่อง",
+    "ok": true,
+    "detail": "60"
+  },
+  {
+    "name": "ชื่อเกม DATABASE & BIG DATA QUEST",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "แสดงชื่อผู้ทำ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "เริ่มที่คำถามที่ 1 / 60",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ข้อ 1 เป็นข้อปัจจุบันใน navigator",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "มีป้ายความยาก (ง่าย) และป้ายหัวข้อ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ตัวเลือก ก ข ค ง ครบ 4 ตัว",
+    "ok": true,
+    "detail": "ก. ข. ค. ง."
+  },
+  {
+    "name": "ปุ่มย้อนกลับถูกปิดที่ข้อแรก",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "เลือกคำตอบแล้วนับ ตอบแล้ว 1 / 60",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ช่องข้อ 1 เปลี่ยนเป็นสถานะตอบแล้ว",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "เปลี่ยนคำตอบได้ (นับยังเป็น 1 และคำตอบใหม่ถูกบันทึก)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ตัวเลือกที่เลือกถูกไฮไลต์เพียงตัวเดียว",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Exam Mode ไม่เฉลยระหว่างทำ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ข้ามข้อด้วยปุ่มข้อถัดไป (ไปข้อ 3 โดยไม่ตอบข้อ 2)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ปุ่มย้อนกลับไปข้อ 2",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ข้อที่มีโค้ดประกอบแสดงกล่องโค้ด (ข้อ 3 JSON)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "คลิกหมายเลข 45 แล้วไปข้อ 45",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Mark for Review ข้อ 45",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "กด M ยกเลิกปักหมุด",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "คีย์ลัด 2 เลือกตัวเลือก ข",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "คีย์ลัด → ไปข้อถัดไป",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Navigator แยกสถานะ ยังไม่ตอบ / ตอบแล้ว / ปักหมุด / ข้อปัจจุบัน",
+    "ok": true,
+    "detail": "{\"cur\":\"cell current\",\"ans\":\"cell answered\",\"mark\":\"cell answered marked\",\"empty\":\"cell\"}"
+  },
+  {
+    "name": "Refresh แล้ว progress ไม่หาย (คำตอบ, ปักหมุด, ข้อปัจจุบัน, ชื่อ)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ตอบผ่าน UI ครบ 55 ข้อ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Progress bar ตรงกับจำนวนที่ตอบ (55/60)",
+    "ok": true,
+    "detail": "91.6667%"
+  },
+  {
+    "name": "ข้อสุดท้ายปุ่มเปลี่ยนเป็นส่งข้อสอบ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "หน้ายืนยันเตือนข้อที่ยังไม่ตอบ 5 ข้อและข้อที่ปักหมุด",
+    "ok": true,
+    "detail": "ตอบแล้ว 55 จาก 60 ข้อยังไม่ได้ตอบอีก 5 ข้อ (ข้อที่ไม่ได้ตอบจะนับเป็น 0 คะแนน)มีข้อที่ทำเครื่องหมายทบทวนไว้ 1 ข้อเมื่อส่งแล้วจะเปลี่ยนคำตอบไม่ได้ ข้อที่ผิดหรือไม่ได้ตอบจะถูกเก็บไว้ใน Wrong Answers Review"
+  },
+  {
+    "name": "กดกลับไปทำต่อ ยังไม่ส่ง",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "คะแนน 45 / 60 = 75%",
+    "ok": true,
+    "detail": "75% 45 / 60 ข้อ"
+  },
+  {
+    "name": "คะแนนแยกตามระดับถูกต้อง (ง่าย 20/20, ปานกลาง 20/20, ยาก 5/20)",
+    "ok": true,
+    "detail": "20/20 (100%) | 20/20 (100%) | 5/20 (25%)"
+  },
+  {
+    "name": "ตารางหมวดรวมได้ 45 / 60 ครบ 6 หมวด",
+    "ok": true,
+    "detail": "45/60"
+  },
+  {
+    "name": "ส่งข้อสอบแล้ว ข้อผิด 10 + ไม่ได้ตอบ 5 เข้า Wrong Answers Review (15 ข้อ)",
+    "ok": true,
+    "detail": "15"
+  },
+  {
+    "name": "Refresh หน้าผลสอบแล้วผลยังอยู่",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ดูเฉลยแสดงคำอธิบายและไฟล์/หน้าอ้างอิง",
+    "ok": true,
+    "detail": "📄 อ้างอิง: Chapter8_BigData_Part1.pdf • หน้า 2"
+  },
+  {
+    "name": "คำอธิบายที่แสดงตรงกับคลังข้อสอบ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "เฉลยบอกเหตุผลครบ 4 ตัวเลือก (ถูก 1 ข้อ + ทำไมผิดอีก 3 ข้อ)",
+    "ok": true,
+    "detail": "4"
+  },
+  {
+    "name": "เหตุผลของตัวเลือกผิดตรงกับคลังข้อสอบ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ดูเฉลยล็อกตัวเลือกและไฮไลต์คำตอบที่ถูก",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "กรองข้อที่ตอบผิดได้ 10 ข้อ และไปข้อ 46",
+    "ok": true,
+    "detail": "ตอบผิด (10)"
+  },
+  {
+    "name": "ข้อที่ผิดแสดงคำตอบของผู้ใช้เป็นสีแดง",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "กรองข้อที่ไม่ได้ตอบได้ 5 ข้อ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ปุ่มทบทวนข้อที่ผิดนับ 15 ข้อ",
+    "ok": true,
+    "detail": "ทบทวนข้อที่ผิดรอบนี้ (15 ข้อ)"
+  },
+  {
+    "name": "Wrong Answers Review มีเฉพาะข้อที่ผิด/ไม่ได้ตอบ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Wrong Answers Review เฉลยทันทีพร้อมคำอธิบาย",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ตัวเลือกถูกปิดหลังตรวจแล้ว",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ตอบแล้วเปลี่ยนไม่ได้",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ตอบถูกแล้วข้อนั้นออกจาก Wrong Answers Review (เหลือ 1 ข้อ)",
+    "ok": true,
+    "detail": "Q46"
+  },
+  {
+    "name": "ผลรอบทบทวน 14 / 15",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ทบทวนซ้ำข้อที่ยังผิด เหลือ 1 ข้อ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "กลับไปผลสอบหลักได้ (75%)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "เมนูโหมดมี 3 โหมด และ Wrong Answers Review แสดง 1 ข้อ",
+    "ok": true,
+    "detail": "exam:false:,practice:false:,wrong:false:1 ข้อ"
+  },
+  {
+    "name": "เข้า Practice Mode: เริ่มข้อ 1 ครบ 60 ข้อ ยังไม่มีคำตอบ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Practice Mode เฉลยทันทีหลังเลือก (ข้อผิด)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "บอกว่าทำไมตัวที่เลือกผิด",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "แสดงไฟล์และหน้าอ้างอิงทันที",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ตอบผิดใน Practice Mode แล้วเข้า Wrong Answers Review (รวม 2 ข้อ)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Practice Mode เฉลยทันทีหลังเลือก (ข้อถูก)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "สลับไป Exam Mode ได้รอบใหม่ (รอบเดิมส่งแล้ว) และเก็บ Practice ที่ทำค้างไว้",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "Refresh แล้วยังอยู่ Exam Mode รอบใหม่ และ Practice ที่ค้างไว้ยังอยู่",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "กลับไป Practice Mode แล้วทำต่อจากเดิม (ตอบไว้ 2 ข้อ อยู่ข้อ 2)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "เปิด Wrong Answers Review จากเมนู ได้ 2 ข้อ (Q01, Q46)",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ตอบถูกครบแล้ว Wrong Answers Review ว่าง และตัวนับในหัวเว็บหายไป",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "เมื่อไม่มีข้อผิด ตัวเลือก Wrong Answers Review ถูกปิด",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "กลับมา Practice Mode เดิม",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ข้อสุดท้ายปุ่มเปลี่ยนเป็นดูสรุปคะแนน",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "ผล Practice Mode 59/60",
+    "ok": true,
+    "detail": "59 / 60 ข้อ"
+  },
+  {
+    "name": "ไม่มี error ใน console",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "มือถือ: Practice Mode แสดงเหตุผลครบ 4 ตัวเลือก",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "มือถือ 390px ไม่มี scroll แนวนอน",
+    "ok": true,
+    "detail": "0"
+  },
+  {
+    "name": "ปุ่ม Previous / Mark / Next อยู่ในจอมือถือ",
+    "ok": true,
+    "detail": "159,223,355"
+  },
+  {
+    "name": "มือถือ: ปุ่มเลือกโหมดมองเห็นและอยู่ในจอ",
+    "ok": true,
+    "detail": ""
+  },
+  {
+    "name": "มือถือ: เลือกคำตอบและปักหมุดได้",
+    "ok": true,
+    "detail": ""
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "name": "database-bigdata-quest",
+  "version": "1.0.0",
+  "private": true,
+  "description": "60-question review game for 1312208 Database Systems and Big Data (Exam / Practice / Wrong Answers Review; HTML, CSS, vanilla JS, JSON bank)",
+  "type": "module",
+  "scripts": {
+    "start": "python3 -m http.server 5500",
+    "test": "node tests/validate-bank.cjs && node tests/e2e.test.cjs"
+  }
+}
